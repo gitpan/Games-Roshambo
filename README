@@ -2,7 +2,7 @@ NAME
     Games::Roshambo - Perl OO Rock/Paper/Scissors
 
 VERSION
-    This document describes Games::Roshambo version 1.00
+    This document describes Games::Roshambo version 1.01
 
 SYNOPSIS
             #!/usr/bin/perl
@@ -64,6 +64,16 @@ INTERFACE
 
 DEPENDENCIES
     None.
+
+RPS-101
+    This module exists solely because I was trying to come up with an
+    algorithmic method of judging a game of RPS-101.
+    <http://www.umop.com/rps101.htm>.
+
+    David Lovelace has done a bang-up job, some would say to the point of
+    obsession, in defining the throws and actions of a game of Roshambo with
+    101 separate throws. The throw names and actions defined in this module
+    are taken from his set of definitions.
 
 BUGS AND LIMITATIONS
     No bugs have been reported.

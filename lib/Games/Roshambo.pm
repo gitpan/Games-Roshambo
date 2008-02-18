@@ -1,10 +1,10 @@
 ##############################################################################
 # Games::Roshambo - Object Oriented Rock/Paper/Scissors
-# v1.00
+# v1.01
 # Copyright (c) 2008 Chris Thompson
 ##############################################################################
 package Games::Roshambo;
-$VERSION ="1.00";
+$VERSION ="1.01";
 use strict;
 use Games::Roshambo::Thrownames;
 
@@ -122,7 +122,7 @@ Games::Roshambo - Perl OO Rock/Paper/Scissors
 
 =head1 VERSION
 
-This document describes Games::Roshambo version 1.00
+This document describes Games::Roshambo version 1.01
 
 =head1 SYNOPSIS
 
@@ -193,6 +193,15 @@ games, in any other number of throws, this method will return undef.
 =head1 DEPENDENCIES
 
 None.
+
+=head1 RPS-101
+
+This module exists solely because I was trying to come up with an algorithmic method
+of judging a game of RPS-101. L<http://www.umop.com/rps101.htm>.
+
+David Lovelace has done a bang-up job, some would say to the point of obsession, in
+defining the throws and actions of a game of Roshambo with 101 separate throws. The
+throw names and actions defined in this module are taken from his set of definitions. 
 
 =head1 BUGS AND LIMITATIONS
 

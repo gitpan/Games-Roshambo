@@ -1,7 +1,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-use_ok( 'Net::Twitter' );
+use_ok( 'Games::Roshambo' );
 }
 
-diag( "Testing Net::Twitter $Net::Twitter::VERSION" );
+diag( "Testing Games::Roshambo $Games::Roshambo::VERSION" );
